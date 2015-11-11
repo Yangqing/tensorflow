@@ -20,7 +20,7 @@ DEFINE_bool(record_mem_types, false,
 DEFINE_bool(brain_mem_reg_cuda_dma, true,
             "If true, register CPU RAM used to copy to/from GPU RAM "
             "with the CUDA driver.");
-DEFINE_bool(brain_gpu_use_bfc_allocator, false,
+DEFINE_bool(brain_gpu_use_bfc_allocator, true,
             "If true, uses the Best-Fit GPU allocator.");
 DEFINE_bool(brain_gpu_region_allocator_debug, false,
             "If true, checks for memory overwrites by writing "
