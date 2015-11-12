@@ -34,7 +34,7 @@ bool FLAGS_record_mem_types = false;
 bool FLAGS_brain_mem_reg_cuda_dma = true;
 bool FLAGS_brain_gpu_region_allocator_debug = false;
 bool FLAGS_brain_gpu_region_allocator_reset_to_nan = false;
-bool FLAGS_brain_gpu_use_bfc_allocator = false;
+bool FLAGS_brain_gpu_use_bfc_allocator = true;
 #endif
 
 namespace gpu = ::perftools::gputools;
